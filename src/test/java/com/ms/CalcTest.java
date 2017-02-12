@@ -7,6 +7,16 @@ import com.ms.Calc;
 
 
 public class CalcTest {
+	
+	@Test
+	public void add5Test(){
+		
+		Calc c=new Calc();
+		Integer add=c.add(2, 3);
+		
+		
+		Assert.assertEquals(5,add.intValue());
+	}
 
     @Test
     public void add0Test() {
@@ -15,7 +25,10 @@ public class CalcTest {
         final Integer add = c.add(0, 0);
         
         Assert.assertEquals(0, add.intValue());
+          
+        
     }
+    
     
     @Test
     public void add1Test() {
@@ -52,4 +65,5 @@ public class CalcTest {
         
         Assert.assertEquals(200, add.intValue());
     }
+
 }
