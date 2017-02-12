@@ -43,12 +43,7 @@
 					</systemPropertyVariables>
 					<workingDirectory>FORK_DIRECTORY_${surefire.forkNumber}</workingDirectory>
 				</configuration> -->
-<<<<<<< HEAD
-		<--Hey There-->
-		<--Hello There-->
-=======
-	
->>>>>>> refs/remotes/origin/master
+
 			</plugin>
 		</plugins>
 	</build>
