@@ -43,7 +43,7 @@
 					</systemPropertyVariables>
 					<workingDirectory>FORK_DIRECTORY_${surefire.forkNumber}</workingDirectory>
 				</configuration> -->
-				<--Test Synchronize GIT-->
+				
 			</plugin>
 		</plugins>
 	</build>
